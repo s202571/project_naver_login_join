@@ -1,14 +1,25 @@
-.login {
+.all {
     background-color:#f7f9fa;; 
     border: 1px solid #dae1e6;
     width: 350px; height: 135px;
-    margin: 100px auto;
+    margin: 100px auto; padding: 13px;
 }
-.login p {font-size: 100%;}
-.login a {}
-.login a h2 {
-    border: 1px solid #19ce60;
+.all p {
+    font-size: 0.75rem;
+}
+.all .login {
+    display: block;
     background-color: #19ce60;
+    color: #fff;
+    padding:12px 0 ; margin: 13px 0 10px 0;
+    text-align: center;
+    font-size:1.1rem ; font-weight: 500;
+    }
+.all .last {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
-.login .last {}
-.login .last a {}
+.all .last .id_pw {}
+.all .last .id_pw a {}
+.all .last a {font-size:0.75rem;}

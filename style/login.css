@@ -1,0 +1,13 @@
+/* main */
+.all main {}
+.all main .login {}
+.all main .login fieldset {}
+.all main .login fieldset > input {}
+.all main .login fieldset p {}
+.all main .login fieldset .left {}
+.all main .login fieldset .left label {}
+.all main .login fieldset .left label input {}
+.all main .login fieldset .right {}
+.all main .login fieldset .right p {}
+.all main .login fieldset .last {}
+.all main .login fieldset .last p {}

@@ -1,0 +1,24 @@
+.all {background-color: #f5f6f7; padding: 0 50px;}
+/* header */
+.all header {}
+.all header nav {
+    background-color: blue;
+}
+.all header nav .language {}
+.all header nav .language fieldset {}
+.all header nav .language fieldset legend {}
+.all header nav .language fieldset legend #lsng {}
+.all header nav .language fieldset legend #lsng option {}
+.all header nav a {
+
+}
+.all header nav a img {
+    background-color: black;
+    text-align: center;
+    width: 40px ; height: 40px;
+}
+/* footer */
+.all footer {}
+.all footer .top {}
+.all footer .top p {}
+.all footer address {}
