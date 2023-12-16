@@ -1,7 +1,6 @@
 body {background-color: #f5f6f7;}
 .all {
     margin: 0 auto; width: 760px;
-    font-family:notosan ;
 }
 /* header */
 .all header {
@@ -26,9 +25,15 @@ body {background-color: #f5f6f7;}
 .all header nav a img {
     width: 237px; height: 49px;
 }
+/* main */
+main {
+    width: 460px;
+    margin: 0 auto;
+}
 /* footer */
 .all footer {
     text-align: center;
+    margin: 50px 0;
 }
 .all footer .top {
     display: flex; flex-flow: row nowrap;
