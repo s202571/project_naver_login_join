@@ -1,24 +1,54 @@
-.all {background-color: #f5f6f7; padding: 0 50px;}
-/* header */
-.all header {}
-.all header nav {
-    background-color: blue;
+body {background-color: #f5f6f7;}
+.all {
+    margin: 0 auto; width: 760px;
+    font-family:notosan ;
 }
-.all header nav .language {}
+/* header */
+.all header {
+}
+.all header nav {}
+.all header nav .language {
+    text-align: right;
+}
 .all header nav .language fieldset {}
-.all header nav .language fieldset legend {}
-.all header nav .language fieldset legend #lsng {}
-.all header nav .language fieldset legend #lsng option {}
+.all header nav .language fieldset legend {
+    background-color: #fff;
+}
+.all header nav .language fieldset legend #lang {
+    border: 1px solid #aaa; padding: 5px 10px;
+}
+.all header nav .language fieldset legend #lang option {}
 .all header nav a {
-
+    text-align: center;
+    display: block;
+    padding: 30px 0 40px;
 }
 .all header nav a img {
-    background-color: black;
-    text-align: center;
-    width: 40px ; height: 40px;
+    width: 237px; height: 49px;
 }
 /* footer */
-.all footer {}
-.all footer .top {}
-.all footer .top p {}
-.all footer address {}
+.all footer {
+    text-align: center;
+}
+.all footer .top {
+    display: flex; flex-flow: row nowrap;
+    justify-content: center;
+}
+/* 이용약관 선 */
+.all footer .top p::after {
+    content: ''; display: inline-block;
+    width: 1px; height: 12px;
+    background-color: #aaa;
+    margin: 0 10px;
+}
+/* 마지막 선 지우기 */
+.all footer .top p:last-child::after {
+    display: none;
+}
+.all footer .top p {
+    font-size: 0.75rem;
+}
+.all footer address {
+    font-size: 0.75rem;
+    margin-top:10px ;
+}

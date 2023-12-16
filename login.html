@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAVER로그인</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/common.css">
@@ -28,24 +29,26 @@
         </header>
         <main>
             <form action="#" method="post" class="login">
-                <fieldset>
-                    <legend class="skip">입력양식</legend>
-                    <input type="text" placeholder="아이디">
-                    <input type="password" placeholder="비밀번호">
-                    <p>로그인</p>
-                    <div class="left">
-                        <label><input type="checkbox">로그인 상태 유지</label>
-                        <div class="right">
-                            <p>IP보안 <span>ON</span></p>
-                            <p>일회용 로그인</p>
+                <div class="login_input">
+                    <fieldset>
+                        <legend class="skip">입력양식</legend>
+                        <input type="text" placeholder="아이디">
+                        <input type="password" placeholder="비밀번호">
+                        <p>로그인</p>
+                        <div class="security">
+                            <label><input type="checkbox"><i class="far fa-check-circle"></i>로그인 상태 유지</label>
+                            <div class="right">
+                                <p>IP보안 <span>ON</span></p>
+                                <p>일회용 로그인</p>
+                            </div>
                         </div>
-                    </div>
+                    </fieldset>
                     <div class="last">
                         <p>아이디 찾기</p>
                         <p>비밀번호  찾기</p>
                         <p>회원가입</p>
                     </div>
-                </fieldset>
+                </div>
             </form>
         </main>
         <footer>
