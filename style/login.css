@@ -48,7 +48,9 @@
     background-color: #aaa;
     margin-right: 5px;
 }
-.all main .login .login_input fieldset .security .right p:last-child { margin: 0;
+.all main .login .login_input fieldset .security .right p:last-child { 
+    margin: 0;
+    text-decoration:underline;
 }
 
 .all main .login .login_input fieldset .security .right p span {
@@ -63,3 +65,5 @@
     border-right:1px solid #aaa;
     padding:0 10px ;
 }
+.all main .login .login_input .last a {}
+.all main .login .login_input .last a p {}

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAVER로그인</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/login.css">
 </head>
 <body>
@@ -22,11 +24,11 @@
                         </legend>
                     </fieldset>
                 </form>
+                <a href="./index.html"><img src="./images/Naver_Logotype.svg.png" alt="네이버"></a>
             </nav>
-            <a href="./index.html"><img src="./images/Naver_Logotype.svg.png" alt="네이버"></a>
         </header>
         <main>
-            <form action="#" method="get">
+            <form action="#" method="post">
                 <fieldset>
                     <legend class="skip">이용약관양식</legend>
                     <p><input type="checkbox"> 이용약관, 개인정보 수집 및 이용, 위치정보 이용약관(선택), 프로모션 안내 메일 수신(선택)에 모두 동의합니다.</p>
@@ -34,7 +36,15 @@
                 </fieldset>
             </form>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="top">
+                <p>이용약관</p>
+                <p>개인정보처리방침</p>
+                <p>책임의 한계와 법적고지</p>
+                <p>회원정보 고객센터</p>
+            </div>
+            <address>NAVER Copyright © NAVER Corp. All Rights Reserved.</address>
+        </footer>
     </div>
 </body>
 </html>
