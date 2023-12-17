@@ -1,0 +1,104 @@
+.all {}
+.all main {}
+.all main .information {}
+.all main .information .information_all {}
+/* 마지막 빼고 */
+.all main .information .information_all fieldset {}
+/* 이용약관 동의 */
+.all main .information .information_all fieldset > p {
+    margin-bottom: 40px;
+}
+.all main .information .information_all fieldset > p > label {
+    text-decoration: underline;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+.all main .information .information_all fieldset > p label input {
+    display: none;
+}
+.all main .information .information_all fieldset > p label input:hover + .fa-check-circle {
+    color: #08a600;
+}
+.all main .information .information_all fieldset > p label input .fa-check-circle {}
+/* 이용약관 설명 */
+.all main .information .information_all fieldset dl {}
+.all main .information .information_all fieldset dl dt {}
+.all main .information .information_all fieldset dl dt label {
+    font-weight: 600;
+}
+.all main .information .information_all fieldset dl dt label input {
+    display: none;
+}
+.all main .information .information_all fieldset dl dt label input:hover + .fa-check-circle {
+    color: #08a600;
+}
+.all main .information .information_all fieldset dl dt label .fa-check-circle {}
+/* 필수, 선택 알기 */
+.all main .information .information_all fieldset dl dt label span {
+    color: #08a600;
+    font-weight: 400;
+}
+/* 선택 색 */
+.all main .information .information_all fieldset dl dt:last-of-type label span {
+    color: #aaa;
+}
+/* 어린이용 안내 */
+.all main .information .information_all fieldset dl dt:nth-of-type(2) {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.all main .information .information_all fieldset dl dt a {
+    background-color: #fff;
+    color: #08a600;
+    font-size: 0.75rem;
+    border:1px solid #08a600;
+    padding: 7px 10px;
+}
+/* 자세한 설명 */
+.all main .information .information_all fieldset dl dd {}
+.all main .information .information_all fieldset dl dd .content {
+    margin: 20px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100%; height: 88px;
+    padding: 5px 5px 0 5px;
+    overflow: auto;
+}
+.all main .information .information_all fieldset dl dd .content em {}
+.all main .information .information_all fieldset dl dd .content p {}
+/* 버튼 */
+.all main .information .information_all fieldset .btn {
+
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:20px ;
+}
+/* 취소 버튼 */
+.all main .information .information_all fieldset .btn p {
+    width: 49%;
+    background-color: #08a600;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+/* 다음으로 넘어가는 버튼 */
+.all main .information .information_all fieldset .btn a {
+    background-color: #8e8e8e;
+    width: 49%; padding: 20px 0;
+    text-align: center;
+    color: #fff;;
+}
+/* 단체 회원가입 */
+.all main .information .information_all .last {
+    display: flex; flex-flow: row nowrap;
+    justify-content: center;
+}
+.all main .information .information_all .last p {
+    font-size: 0.75rem;
+}
+.all main .information .information_all .last p:last-child {
+    text-decoration: underline;
+    margin-left: 5px;
+}
