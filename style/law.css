@@ -16,7 +16,7 @@
 .all main .information .information_all fieldset > p label input {
     display: none;
 }
-.all main .information .information_all fieldset > p label input:hover + .fa-check-circle {
+.all main .information .information_all fieldset > p label input:checked + .fa-check-circle {
     color: #08a600;
 }
 .all main .information .information_all fieldset > p label input .fa-check-circle {}
@@ -29,7 +29,7 @@
 .all main .information .information_all fieldset dl dt label input {
     display: none;
 }
-.all main .information .information_all fieldset dl dt label input:hover + .fa-check-circle {
+.all main .information .information_all fieldset dl dt label input:checked + .fa-check-circle {
     color: #08a600;
 }
 .all main .information .information_all fieldset dl dt label .fa-check-circle {}

@@ -33,7 +33,7 @@
     appearance: none;
 }
 .all main .login .login_input fieldset .security label input .fa-check-circle {}
-.all main .login .login_input fieldset .security label input:hover + .fa-check-circle {
+.all main .login .login_input fieldset .security label input:checked + .fa-check-circle {
     color: #03c75a;
 }
 .all main .login .login_input fieldset .security .right {
